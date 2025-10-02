@@ -7,10 +7,6 @@
 
 An intelligent tool designed to streamline the interview preparation process by automatically generating questions and answers from PDF documents. Ideal for recruiters, educators, and students.
 
-
-
-
-
 ---
 
 ### 🌟 Overview
@@ -42,6 +38,7 @@ The **AI Interview Question Creator** automates the tedious task of creating int
 
 ## 📂 Project Structure
 
+```text
 Interview-Question-Creator/
 │
 ├── app.py                  # Main FastAPI application logic and endpoints
@@ -59,8 +56,7 @@ Interview-Question-Creator/
 │   └── index.html          # Frontend HTML template
 │
 └── .env                    # Environment variables (e.g., API keys)
-
-
+```
 ---
 
 ## ⚙️ Installation and Setup
@@ -84,7 +80,6 @@ cd Interview-Question-Creator
 
 ---
 
-
 ### 3. Create and Activate Conda Environment
 This will create an isolated environment for the project's dependencies.
 
@@ -98,7 +93,6 @@ conda activate interview
 
 ---
 
-
 ### 4. Install Dependencies
 Install all the required Python packages from the requirements.txt file.
 
@@ -107,7 +101,6 @@ pip install -r requirements.txt
 ```
 
 ---
-
 
 ### 5. Set Up Environment Variables
 1. You'll need an API key from an LLM provider (e.g., mistral AI).
@@ -121,7 +114,6 @@ pip install -r requirements.txt
 5. MISTRAL_API_KEY="YOUR_API_KEY_HERE"
 
 ---
-
 
 ## ▶️ Running the Application
 Once the setup is complete, you can start the FastAPI server.
@@ -141,9 +133,7 @@ http://127.0.0.1:8080
 
 4. Download Results: Once processing is complete, download links for CSV and HTML files will appear.
 
-
 ---
-
 
 ## View Output:
 
@@ -151,9 +141,9 @@ Open the CSV file in any spreadsheet program (like Excel or Google Sheets).
 
 ---
 
-
 ## 📜 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
+
 
 
 
