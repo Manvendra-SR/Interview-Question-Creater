@@ -73,10 +73,9 @@ Follow these steps to get the project up and running on your local machine.
 
 ### 2. Clone the Repository
 
-```bash
+Bash
 git clone [https://github.com/your-username/Interview-Question-Creator.git](https://github.com/your-username/Interview-Question-Creator.git)
 cd Interview-Question-Creator
-```
 
 ---
 
@@ -155,4 +154,5 @@ Open the HTML file in a web browser to view a neatly formatted table.
 
 ## 📜 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
+
 
