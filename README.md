@@ -73,9 +73,10 @@ Follow these steps to get the project up and running on your local machine.
 
 ### 2. Clone the Repository
 
-Bash
+```bash
 git clone [https://github.com/your-username/Interview-Question-Creator.git](https://github.com/your-username/Interview-Question-Creator.git)
 cd Interview-Question-Creator
+```
 
 ---
 
@@ -83,9 +84,8 @@ cd Interview-Question-Creator
 ### 3. Create and Activate Conda Environment
 This will create an isolated environment for the project's dependencies.
 
-
-Create a new conda environment named 'interview'
 ```bash
+# Create a new conda environment named 'interview'
 conda create -n interview python=3.10 -y
 
 # Activate the environment
@@ -106,15 +106,15 @@ pip install -r requirements.txt
 
 
 ### 5. Set Up Environment Variables
-You'll need an API key from an LLM provider (e.g., mistral AI).
+1. You'll need an API key from an LLM provider (e.g., mistral AI).
 
-Create a file named .env in the root directory.
+2. Create a file named .env in the root directory.
 
-Add your API key to this file:
+3. Add your API key to this file:
 
-Code snippet:
+4. Code snippet:
 
-MISTRAL_API_KEY="YOUR_API_KEY_HERE"
+5. MISTRAL_API_KEY="YOUR_API_KEY_HERE"
 
 ---
 
@@ -154,5 +154,6 @@ Open the HTML file in a web browser to view a neatly formatted table.
 
 ## 📜 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
+
 
 
