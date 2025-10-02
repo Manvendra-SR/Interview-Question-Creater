@@ -7,6 +7,10 @@
 
 An intelligent tool designed to streamline the interview preparation process by automatically generating questions and answers from PDF documents. Ideal for recruiters, educators, and students.
 
+
+
+
+
 ---
 
 ### 🌟 Overview
@@ -122,8 +126,6 @@ pip install -r requirements.txt
 ## ▶️ Running the Application
 Once the setup is complete, you can start the FastAPI server.
 
-Bash
-
 python app.py
 The application will be accessible in your web browser at:
 http://127.0.0.1:8080
@@ -131,13 +133,13 @@ http://127.0.0.1:8080
 ---
 
 ## 📝 How to Use
-Navigate to the Web Interface: Open http://127.0.0.1:8080 in your browser.
+1. Navigate to the Web Interface: Open http://127.0.0.1:8080 in your browser.
 
-Upload a PDF: Click the "Choose File" button and select a PDF document from your local machine.
+2. Upload a PDF: Click the "Choose File" button and select a PDF document from your local machine.
 
-Generate Q&A: Click the "Analyze" button to start the generation process. The AI will parse the document and create the questions and answers.
+3. Generate Q&A: Click the "Analyze" button to start the generation process. The AI will parse the document and create the questions and answers.
 
-Download Results: Once processing is complete, download links for CSV and HTML files will appear.
+4. Download Results: Once processing is complete, download links for CSV and HTML files will appear.
 
 
 ---
@@ -147,13 +149,12 @@ Download Results: Once processing is complete, download links for CSV and HTML f
 
 Open the CSV file in any spreadsheet program (like Excel or Google Sheets).
 
-Open the HTML file in a web browser to view a neatly formatted table.
-
 ---
 
 
 ## 📜 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
+
 
 
 
