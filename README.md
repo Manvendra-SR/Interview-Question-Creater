@@ -13,8 +13,6 @@ An intelligent tool designed to streamline the interview preparation process by 
 
 The **AI Interview Question Creator** automates the tedious task of creating interview materials. By simply uploading a PDF document—such as a resume, job description, or study guide—the application leverages a Large Language Model (LLM) to extract key information and generate a comprehensive set of relevant questions and their corresponding answers.
 
-![UI Placeholder](https://via.placeholder.com/800x400.png?text=Application+Screenshot+Here)
-
 ---
 
 ## ✨ Key Features
@@ -70,6 +68,9 @@ Follow these steps to get the project up and running on your local machine.
 * Python 3.10 or higher
 * [Conda](https://docs.conda.io/en/latest/miniconda.html) package manager
 
+---
+
+
 ### 2. Clone the Repository
 
 ```bash
@@ -77,34 +78,49 @@ git clone [https://github.com/your-username/Interview-Question-Creator.git](http
 cd Interview-Question-Creator
 ```
 
+---
+
+
 ### 3. Create and Activate Conda Environment
 This will create an isolated environment for the project's dependencies.
 
 
-# Create a new conda environment named 'interview'
+Create a new conda environment named 'interview'
 ```bash
 conda create -n interview python=3.10 -y
 
 # Activate the environment
 conda activate interview
 ```
-4. Install Dependencies
+
+---
+
+
+### 4. Install Dependencies
 Install all the required Python packages from the requirements.txt file.
 
-Bash
-
+```bash
 pip install -r requirements.txt
-5. Set Up Environment Variables
-You'll need an API key from an LLM provider (e.g., Google AI Studio).
+```
+
+---
+
+
+### 5. Set Up Environment Variables
+You'll need an API key from an LLM provider (e.g., mistral AI).
 
 Create a file named .env in the root directory.
 
 Add your API key to this file:
 
-Code snippet
+Code snippet:
 
-GOOGLE_API_KEY="YOUR_API_KEY_HERE"
-▶️ Running the Application
+MISTRAL_API_KEY="YOUR_API_KEY_HERE"
+
+---
+
+
+## ▶️ Running the Application
 Once the setup is complete, you can start the FastAPI server.
 
 Bash
@@ -113,7 +129,9 @@ python app.py
 The application will be accessible in your web browser at:
 http://127.0.0.1:8080
 
-📝 How to Use
+---
+
+## 📝 How to Use
 Navigate to the Web Interface: Open http://127.0.0.1:8080 in your browser.
 
 Upload a PDF: Click the "Choose File" button and select a PDF document from your local machine.
@@ -122,24 +140,19 @@ Generate Q&A: Click the "Analyze" button to start the generation process. The AI
 
 Download Results: Once processing is complete, download links for CSV and HTML files will appear.
 
-View Output:
+
+---
+
+
+## View Output:
 
 Open the CSV file in any spreadsheet program (like Excel or Google Sheets).
 
 Open the HTML file in a web browser to view a neatly formatted table.
 
-🤝 Contributing
-Contributions are welcome! If you have suggestions for improvements or want to fix a bug, please feel free to:
+---
 
-Fork the repository.
 
-Create a new branch (git checkout -b feature/YourFeatureName).
-
-Commit your changes (git commit -m 'Add some amazing feature').
-
-Push to the branch (git push origin feature/YourFeatureName).
-
-Open a Pull Request.
-
-📜 License
+## 📜 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
+
